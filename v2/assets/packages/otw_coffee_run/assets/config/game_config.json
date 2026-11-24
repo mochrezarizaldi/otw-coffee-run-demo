@@ -1,0 +1,38 @@
+{
+  "configVersion": 1,
+  "world": { "pxPerMeter": 32, "viewWidthMeters": 12, "groundScreenYMeters": 0.625, "viewAheadMeters": 16 },
+  "run": { "safeStartMeters": 30 },
+  "speed": { "base": 8.0, "accelPerSec": 0.05, "max": 16.0 },
+  "jump": { "velocity": 9.0, "gravity": 30.0, "holdGravity": 12.0, "maxHoldMs": 250 },
+  "player": { "screenXMeters": 1.0, "width": 2.0, "height": 1.78125 },
+  "hitbox": { "inset": 0.2 },
+  "obstacles": {
+    "cone": { "width": 0.8, "height": 0.8 },
+    "barrier": { "width": 1.8, "height": 1.1 },
+    "angkot": { "width": 4.0, "height": 2.0 },
+    "motor": { "width": 1.6, "height": 1.0 },
+    "satpolLow": { "width": 4.4, "height": 1.2, "raised": { "from": 0.9, "width": 1.8, "height": 2.0 } },
+    "kite": { "width": 1.2, "height": 1.4, "bottom": 2.0 },
+    "cup": { "width": 0.5, "height": 0.5 },
+    "turboPickup": { "width": 0.7, "height": 0.9 }
+  },
+  "turbo": { "durationMs": 6000, "thrust": 40.0, "gravity": 20.0, "ceilingMeters": 9.0, "landingGraceMs": 1500, "spawnChancePerChunk": 0.08, "minMetersBetween": 300 },
+  "satpol": { "warningMs": 1500, "speed": 6.0 },
+  "angkot": { "speed": 4.0 },
+  "kite": { "speed": 6.0 },
+  "motor": { "speed": 10.0, "honkLeadMs": 1000 },
+  "score": { "cupMultiplier": 10, "cupValues": { "normal": 1, "medium": 5, "gold": 25 } },
+  "biome": {
+    "lengthMeters": 500, "transitionMeters": 30,
+    "order": ["kota", "sawah", "desa", "gunung"],
+    "weights": {
+      "kota":   { "angkot": 3.0, "satpolLow": 3.0, "kite": 3.0, "cone": 1.5 },
+      "sawah":  { "pothole": 2.0, "motor": 2.0, "cone": 1.2 },
+      "desa":   { "pothole": 1.5, "motor": 1.5, "barrier": 1.5 },
+      "gunung": { "barrier": 2.0, "pothole": 1.5 }
+    }
+  },
+  "difficulty": { "metersPerTier": 400, "maxTier": 4 },
+  "plausibility": { "maxCupPointsPerMeter": 2.0, "distanceTolerance": 0.03, "durationToleranceMs": 5000 },
+  "network": { "ticketTimeoutMs": 4000, "submitTimeoutMs": 8000 }
+}

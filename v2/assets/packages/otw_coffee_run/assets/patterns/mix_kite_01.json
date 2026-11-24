@@ -1,0 +1,18 @@
+{
+  "id": "mix_kite_01",
+  "kind": "normal",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 40,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 8, "y": 0.4},
+    {"type": "cup", "tier": "normal", "x": 10, "y": 0.4},
+    {"type": "cup", "tier": "normal", "x": 12, "y": 0.4},
+    {"type": "kite", "x": 26},
+    {"type": "cup", "tier": "medium", "x": 20, "y": 0.4},
+    {"type": "cup", "tier": "normal", "x": 34, "y": 0.4},
+    {"type": "cup", "tier": "normal", "x": 36, "y": 0.4}
+  ]
+}

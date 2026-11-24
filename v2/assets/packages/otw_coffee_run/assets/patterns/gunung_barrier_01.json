@@ -1,0 +1,17 @@
+{
+  "id": "gunung_barrier_01",
+  "kind": "normal",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 30,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 10, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 11, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 12, "y": 0.5},
+    {"type": "barrier", "x": 18},
+    {"type": "cup", "tier": "medium", "x": 18.25, "y": 2.2}
+  ],
+  "turboSlot": {"x": 26, "y": 1.0}
+}

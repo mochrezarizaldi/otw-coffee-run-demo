@@ -1,0 +1,16 @@
+{
+  "id": "mix_satpol_02",
+  "kind": "normal",
+  "minTier": 2,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 50,
+  "objects": [
+    {"type": "kite", "x": 25},
+    {"type": "cup", "tier": "gold", "x": 20, "y": 0.4},
+    {"type": "motor", "x": 48},
+    {"type": "cup", "tier": "normal", "x": 36, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 37, "y": 0.5}
+  ]
+}

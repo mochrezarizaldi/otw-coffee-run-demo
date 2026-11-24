@@ -1,0 +1,25 @@
+{
+  "id": "mix_turbo_split_01",
+  "kind": "turbo",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 40,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 2.0, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 5.5, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 9.0, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 12.5, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 16.0, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 19.5, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 23.0, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 26.5, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 30.0, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 33.5, "y": 1.5},
+    {"type": "cup", "tier": "medium", "x": 6, "y": 6.0},
+    {"type": "cup", "tier": "medium", "x": 15, "y": 6.0},
+    {"type": "cup", "tier": "medium", "x": 24, "y": 6.0},
+    {"type": "cup", "tier": "medium", "x": 33, "y": 6.0}
+  ]
+}

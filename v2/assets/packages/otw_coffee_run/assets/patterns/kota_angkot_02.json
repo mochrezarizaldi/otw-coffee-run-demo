@@ -1,0 +1,16 @@
+{
+  "id": "kota_angkot_02",
+  "kind": "normal",
+  "minTier": 2,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 50,
+  "objects": [
+    {"type": "cone", "x": 8},
+    {"type": "angkot", "x": 30},
+    {"type": "cup", "tier": "medium", "x": 26, "y": 2.4},
+    {"type": "cone", "x": 44},
+    {"type": "cup", "tier": "normal", "x": 44, "y": 1.3}
+  ]
+}

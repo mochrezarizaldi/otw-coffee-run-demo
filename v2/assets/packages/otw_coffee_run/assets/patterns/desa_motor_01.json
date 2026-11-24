@@ -1,0 +1,17 @@
+{
+  "id": "desa_motor_01",
+  "kind": "normal",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 40,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 12, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 13, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 14, "y": 0.5},
+    {"type": "motor", "x": 36},
+    {"type": "cup", "tier": "medium", "x": 28, "y": 1.5}
+  ],
+  "turboSlot": {"x": 8, "y": 1.0}
+}

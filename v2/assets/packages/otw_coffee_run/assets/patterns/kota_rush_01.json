@@ -1,0 +1,17 @@
+{
+  "id": "kota_rush_01",
+  "kind": "normal",
+  "minTier": 3,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 50,
+  "objects": [
+    {"type": "cone", "x": 8},
+    {"type": "cup", "tier": "normal", "x": 8, "y": 1.3},
+    {"type": "satpolLow", "x": 30},
+    {"type": "cup", "tier": "medium", "x": 24, "y": 1.8},
+    {"type": "cone", "x": 45},
+    {"type": "cup", "tier": "normal", "x": 45, "y": 1.3}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mix_cone_01",
+  "kind": "normal",
+  "minTier": 0,
+  "maxTier": 3,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 30,
+  "objects": [
+    {"type": "cone", "x": 8},
+    {"type": "cup", "tier": "normal", "x": 8, "y": 1.3},
+    {"type": "cone", "x": 14},
+    {"type": "cup", "tier": "normal", "x": 14, "y": 1.3},
+    {"type": "cone", "x": 22},
+    {"type": "cup", "tier": "normal", "x": 22, "y": 1.3}
+  ],
+  "turboSlot": {"x": 27, "y": 1.2}
+}

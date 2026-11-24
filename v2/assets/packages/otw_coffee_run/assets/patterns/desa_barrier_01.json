@@ -1,0 +1,17 @@
+{
+  "id": "desa_barrier_01",
+  "kind": "normal",
+  "minTier": 2,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 40,
+  "objects": [
+    {"type": "pothole", "x": 10, "width": 2.5},
+    {"type": "cup", "tier": "normal", "x": 11, "y": 1.2},
+    {"type": "barrier", "x": 25},
+    {"type": "cup", "tier": "medium", "x": 25.25, "y": 2.2},
+    {"type": "cup", "tier": "normal", "x": 32, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 33, "y": 0.5}
+  ]
+}

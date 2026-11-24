@@ -1,0 +1,16 @@
+{
+  "id": "sawah_motor_01",
+  "kind": "normal",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 45,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 8, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 10, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 12, "y": 0.5},
+    {"type": "motor", "x": 40},
+    {"type": "cup", "tier": "medium", "x": 30, "y": 1.5}
+  ]
+}
