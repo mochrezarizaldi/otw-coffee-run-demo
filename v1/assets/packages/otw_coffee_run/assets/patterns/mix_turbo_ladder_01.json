@@ -1,0 +1,28 @@
+{
+  "id": "mix_turbo_ladder_01",
+  "kind": "turbo",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 40,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 2, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 4, "y": 1.9},
+    {"type": "cup", "tier": "normal", "x": 6, "y": 2.3},
+    {"type": "cup", "tier": "normal", "x": 8, "y": 2.7},
+    {"type": "cup", "tier": "normal", "x": 10, "y": 3.1},
+    {"type": "cup", "tier": "normal", "x": 12, "y": 3.5},
+    {"type": "cup", "tier": "normal", "x": 14, "y": 3.9},
+    {"type": "cup", "tier": "normal", "x": 16, "y": 4.3},
+    {"type": "cup", "tier": "normal", "x": 18, "y": 4.7},
+    {"type": "cup", "tier": "normal", "x": 20, "y": 5.1},
+    {"type": "cup", "tier": "normal", "x": 22, "y": 5.5},
+    {"type": "cup", "tier": "normal", "x": 24, "y": 5.9},
+    {"type": "cup", "tier": "normal", "x": 26, "y": 6.3},
+    {"type": "cup", "tier": "normal", "x": 28, "y": 6.7},
+    {"type": "cup", "tier": "normal", "x": 30, "y": 7.1},
+    {"type": "cup", "tier": "normal", "x": 32, "y": 7.5},
+    {"type": "cup", "tier": "gold", "x": 36, "y": 8.0}
+  ]
+}

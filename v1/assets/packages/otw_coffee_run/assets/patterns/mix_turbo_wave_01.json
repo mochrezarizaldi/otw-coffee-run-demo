@@ -1,0 +1,31 @@
+{
+  "id": "mix_turbo_wave_01",
+  "kind": "turbo",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 42,
+  "objects": [
+    {"type": "cup", "tier": "normal", "x": 2, "y": 4.5},
+    {"type": "cup", "tier": "normal", "x": 4, "y": 5.97},
+    {"type": "cup", "tier": "normal", "x": 6, "y": 6.88},
+    {"type": "cup", "tier": "normal", "x": 8, "y": 6.88},
+    {"type": "cup", "tier": "normal", "x": 10, "y": 5.97},
+    {"type": "cup", "tier": "medium", "x": 12, "y": 4.5},
+    {"type": "cup", "tier": "normal", "x": 14, "y": 3.03},
+    {"type": "cup", "tier": "normal", "x": 16, "y": 2.12},
+    {"type": "cup", "tier": "normal", "x": 18, "y": 2.12},
+    {"type": "cup", "tier": "normal", "x": 20, "y": 3.03},
+    {"type": "cup", "tier": "normal", "x": 22, "y": 4.5},
+    {"type": "cup", "tier": "normal", "x": 24, "y": 5.97},
+    {"type": "cup", "tier": "normal", "x": 26, "y": 6.88},
+    {"type": "cup", "tier": "normal", "x": 28, "y": 6.88},
+    {"type": "cup", "tier": "normal", "x": 30, "y": 5.97},
+    {"type": "cup", "tier": "medium", "x": 32, "y": 4.5},
+    {"type": "cup", "tier": "normal", "x": 34, "y": 3.03},
+    {"type": "cup", "tier": "normal", "x": 36, "y": 2.12},
+    {"type": "cup", "tier": "normal", "x": 38, "y": 2.12},
+    {"type": "cup", "tier": "normal", "x": 40, "y": 3.03}
+  ]
+}

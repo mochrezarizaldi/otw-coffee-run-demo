@@ -1,0 +1,16 @@
+{
+  "id": "sawah_pothole_01",
+  "kind": "normal",
+  "minTier": 2,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 45,
+  "objects": [
+    {"type": "pothole", "x": 8, "width": 2.5},
+    {"type": "cup", "tier": "normal", "x": 9, "y": 1.2},
+    {"type": "pothole", "x": 18, "width": 3.5},
+    {"type": "cup", "tier": "gold", "x": 19.5, "y": 2.0},
+    {"type": "motor", "x": 42}
+  ]
+}

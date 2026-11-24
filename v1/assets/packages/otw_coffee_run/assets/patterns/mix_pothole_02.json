@@ -1,0 +1,17 @@
+{
+  "id": "mix_pothole_02",
+  "kind": "normal",
+  "minTier": 0,
+  "maxTier": 4,
+  "biomes": ["kota", "sawah", "desa", "gunung"],
+  "weight": 1.0,
+  "lengthMeters": 30,
+  "objects": [
+    {"type": "pothole", "x": 12, "width": 3.0},
+    {"type": "cup", "tier": "normal", "x": 11, "y": 1.0},
+    {"type": "cup", "tier": "normal", "x": 13, "y": 1.5},
+    {"type": "cup", "tier": "normal", "x": 15, "y": 1.0},
+    {"type": "cup", "tier": "normal", "x": 22, "y": 0.5},
+    {"type": "cup", "tier": "normal", "x": 23, "y": 0.5}
+  ]
+}
